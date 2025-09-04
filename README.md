@@ -19,3 +19,12 @@ Resolução de questões do LeetCode (2 difíceis e 2 médias) pelos integrantes
 A questão pedia um sistema de sugestões de produtos a partir de uma lista de palavras que, a cada caractere digitado, mostrasse até três produtos com o mesmo prefixo em ordem lexicográfica. Para resolver, os produtos foram ordenados e, para cada prefixo, usou-se busca binária para encontrar rapidamente as sugestões corretas. Foram selecionados no máximo três produtos que começassem com o prefixo digitado. Assim, a solução combinou ordenação com busca binária, garantindo eficiência e atendendo aos requisitos da questão.
 
 ![Print da Resolução 1268](questoes/questao1268.jpg)
+
+### [212 - Difícil](https://leetcode.com/problems/word-search-ii/description/)
+
+A questãoI pede para encontrar todas as palavras de uma lista que podem ser formadas em um tabuleiro de letras, movendo-se apenas horizontal ou verticalmente e sem repetir células. A solução usa uma Trie para armazenar as palavras e DFS com backtracking para percorrer o tabuleiro, explorando apenas caminhos que correspondem a algum prefixo na Trie e coletando as palavras completas encontradas.
+
+![Print da Resolução 212](questoes/questao212.jpg)
+
+
+## Vídeo de explicação das Questões:
