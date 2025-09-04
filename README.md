@@ -3,17 +3,14 @@
 |-----------------------|---------------------|  
 | 20/2015868 | Alexandre Lema Xavier Júnior |  
 | xx/xxxxxxx | xxxx xxxx xxxxx |  
-## Descrição do projeto
-Aqui você deve dizer o objetivo deste projeto e o que realmente foi feito neste repositório.
-## Guia de instalação
-Aqui devem estar descritas as dependências do projeto (versões de linguagens e ferramentas) e as instruções necessárias para executar o projeto. 
-### Dependências do projeto
-### Como executar o projeto
-## Capturas de tela
-Neste tópico você deve adicionar imagens do funcionamento do projeto.  
- - As imagens devem ser salvas no repositório.
- - Imagens salvas em domínios eternos tendem a ficar indisponíveis e devem ser evitadas.   
-## Conclusões
-Aqui você diz se o algoritmo utilizado foi útil, se tem limitações, etc.
-## Referências
-Caso tenha utilizado algum agoritmo como base, citar o mesmo devidamente para  evitar quaisquer denuncias de plágio.
+
+## Sobre 
+Resolução de questões do LeetCode (2 difíceis e 2 médias) pelos integrantes do grupo com o objetivo de demonstrar o conhecimento adquirido nesse módulo (Algoritmos de Busca) da disciplina.
+
+## Screenshots
+
+### [1268 - Média](https://leetcode.com/problems/search-suggestions-system/description/) 
+
+A questão pedia um sistema de sugestões de produtos a partir de uma lista de palavras que, a cada caractere digitado, mostrasse até três produtos com o mesmo prefixo em ordem lexicográfica. Para resolver, os produtos foram ordenados e, para cada prefixo, usou-se busca binária para encontrar rapidamente as sugestões corretas. Foram selecionados no máximo três produtos que começassem com o prefixo digitado. Assim, a solução combinou ordenação com busca binária, garantindo eficiência e atendendo aos requisitos da questão.
+
+![Print da Resolução 1268](/assets/questao1268.jpg)
