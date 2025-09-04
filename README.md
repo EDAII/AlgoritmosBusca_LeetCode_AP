@@ -42,3 +42,7 @@ A solução foi implementada utilizando o Merge Sort, um algoritmo baseado na t�
 ![Print da Resolução 912](questoes/912.png)
 
 ## Vídeo de explicação das Questões:
+
+
+https://github.com/user-attachments/assets/9dc4a6eb-3b3a-43d4-8ce5-17d415ddda66
+
